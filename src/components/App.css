@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+  font-family: sans-serif;
+  position: relative;
+}
+
+.app {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.answers-description {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px -15px 0px;
+}
+
+#signature {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 1px;
+  opacity: 0;
+}
+
+@media screen and (max-width: 760px) {
+  .App {
+    padding-bottom: 20px;
+  }
+  .answers-description {
+    flex-direction: column;
+  }
+}
