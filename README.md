@@ -6,5 +6,4 @@ Songbird - одностраничное приложение, викторина
 ![screenshot](./songbird.jpg)
 
 ### App
-https://songbird-shot.netlify.app/ 
-
+https://shotalex-songbird.netlify.app/
