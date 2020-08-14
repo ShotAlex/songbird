@@ -1,0 +1,23 @@
+.next-level {
+  button {
+    background-color: rgb(48, 48, 48);
+    border: 1px solid rgb(68, 68, 68);
+    width: 100%;
+    margin-top: 20px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 16px;
+    font-weight: 400;
+    font-size: 1.26rem;
+    outline: none;
+    cursor: not-allowed;
+
+  }
+
+  button.active {
+    background-color: rgb(0, 187, 140);
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 0px rgba(0, 187, 140, 0.75);
+    transform: .3s;
+  }
+}
